@@ -33,3 +33,44 @@ ul {
 .countryInput::placeholder {
   color: rgba(0, 0, 0, 0.445);
 }
+
+.countryTitle {
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.countryContentSection {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+.countryContent__title {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+.countryContent__text {
+  font-size: 20px;
+  font-style: italic;
+}
+.countryContent__item {
+  font-size: 20px;
+  font-style: italic;
+}
+.countryContent__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.countryContent__image {
+  margin-left: 40px;
+}
+
+.js-countries {
+  color: white;
+  font-family: sans;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px grey;
+}
